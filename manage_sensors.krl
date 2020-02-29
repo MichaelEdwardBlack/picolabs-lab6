@@ -96,7 +96,7 @@ ruleset com.blacklite.krl.manage_sensors {
  }
 
  rule remove_stored_sensor {
-   select when wrangler delete_child
+   select when wrangler child_deleted
    pre {
      sensor_name = event:attrs{"name"}
    }
