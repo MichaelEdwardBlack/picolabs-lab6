@@ -93,7 +93,7 @@ ruleset com.blacklite.krl.wovyn_base {
 
     always {
       raise twilio event "send_message"
-        attributes {"to": "+17193590627", "from": "+17193966763", "message": message}
+        attributes {"to": "+17193590627", "from": "+17192121661", "message": message}
     }
   }
 }
